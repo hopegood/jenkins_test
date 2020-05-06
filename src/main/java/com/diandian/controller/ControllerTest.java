@@ -19,5 +19,8 @@ public class ControllerTest {
         return "sqx,jenkins_test!";
     }
     
-
+    @GetMapping(value="/hello2")
+    public String getHello2() {
+        return "sqx88,jenkins_test!";
+    }
 }
