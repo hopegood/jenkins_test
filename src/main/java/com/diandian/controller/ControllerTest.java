@@ -13,4 +13,9 @@ public class ControllerTest {
     public String getHello() {
         return "hello,jenkins_test!";
     }
+    
+    @GetMapping(value="/hello1")
+    public String getHello1() {
+        return "sqx,jenkins_test!";
+    }
 }
